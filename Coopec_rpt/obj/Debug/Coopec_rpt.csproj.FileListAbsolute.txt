@@ -1,0 +1,7 @@
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\bin\Debug\Coopec_rpt.exe
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\bin\Debug\Coopec_rpt.pdb
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\obj\Debug\ResolveAssemblyReference.cache
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\obj\Debug\Coopec_rpt.Properties.Resources.resources
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\obj\Debug\Coopec_rpt.csproj.GenerateResource.Cache
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\obj\Debug\Coopec_rpt.exe
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_rpt\obj\Debug\Coopec_rpt.pdb

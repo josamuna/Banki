@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCoopec", "GestionCoopec\GestionCoopec.csproj", "{226060B2-BE3D-4B52-B250-5B0C74FF30FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coopec_Lib", "Coopec_Lib\Coopec_Lib.csproj", "{28585C6A-DF0E-4E0C-B89A-DAE94FA26044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coopec_rpt", "Coopec_rpt\Coopec_rpt.csproj", "{82F698F4-B829-4449-A761-AA53394C9476}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Banki", "Banki\Banki.vdproj", "{3C6091A4-092A-4DD4-BC37-6305AA40E75F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{226060B2-BE3D-4B52-B250-5B0C74FF30FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226060B2-BE3D-4B52-B250-5B0C74FF30FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226060B2-BE3D-4B52-B250-5B0C74FF30FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226060B2-BE3D-4B52-B250-5B0C74FF30FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28585C6A-DF0E-4E0C-B89A-DAE94FA26044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28585C6A-DF0E-4E0C-B89A-DAE94FA26044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28585C6A-DF0E-4E0C-B89A-DAE94FA26044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28585C6A-DF0E-4E0C-B89A-DAE94FA26044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F698F4-B829-4449-A761-AA53394C9476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F698F4-B829-4449-A761-AA53394C9476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F698F4-B829-4449-A761-AA53394C9476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F698F4-B829-4449-A761-AA53394C9476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6091A4-092A-4DD4-BC37-6305AA40E75F}.Debug|Any CPU.ActiveCfg = Debug
+		{3C6091A4-092A-4DD4-BC37-6305AA40E75F}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

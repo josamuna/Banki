@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{226060B2-BE3D-4B52-B250-5B0C74FF30FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestionCoopec</RootNamespace>
+    <AssemblyName>GestionCoopec</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CryptageJosam_LIB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CryptageJosam\CryptageJosam_LIB\bin\Debug\CryptageJosam_LIB.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentForm.Designer.cs">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategorieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategorieForm.Designer.cs">
+      <DependentUpon>CategorieForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comptefrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comptefrm.Designer.cs">
+      <DependentUpon>Comptefrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompteForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CompteForm.Designer.cs">
+      <DependentUpon>CompteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompteUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteUtilisateur.Designer.cs">
+      <DependentUpon>CompteUtilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionBd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectionBd.Designer.cs">
+      <DependentUpon>ConnectionBd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntreeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EntreeForm.Designer.cs">
+      <DependentUpon>EntreeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntreeFormSortie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntreeFormSortie.Designer.cs">
+      <DependentUpon>EntreeFormSortie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangerImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmChangerImage.Designer.cs">
+      <DependentUpon>frmChangerImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListeAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeAgent.Designer.cs">
+      <DependentUpon>ListeAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuUser.Designer.cs">
+      <DependentUpon>MenuUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentForm.resx">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategorieForm.resx">
+      <DependentUpon>CategorieForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comptefrm.resx">
+      <DependentUpon>Comptefrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteForm.resx">
+      <DependentUpon>CompteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteUtilisateur.resx">
+      <DependentUpon>CompteUtilisateur.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectionBd.resx">
+      <DependentUpon>ConnectionBd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntreeForm.resx">
+      <DependentUpon>EntreeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntreeFormSortie.resx">
+      <DependentUpon>EntreeFormSortie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangerImage.resx">
+      <DependentUpon>frmChangerImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeAgent.resx">
+      <DependentUpon>ListeAgent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUser.resx">
+      <DependentUpon>MenuUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapport.resx">
+      <DependentUpon>Rapport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeClients.resx">
+      <DependentUpon>ListeClients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SituationSoldeCptClient.resx">
+      <DependentUpon>SituationSoldeCptClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortieForm.resx">
+      <DependentUpon>SortieForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortieFormSortie.resx">
+      <DependentUpon>SortieFormSortie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilisateur.resx">
+      <DependentUpon>Utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rapport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rapport.Designer.cs">
+      <DependentUpon>Rapport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListeClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeClients.Designer.cs">
+      <DependentUpon>ListeClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SituationSoldeCptClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SituationSoldeCptClient.Designer.cs">
+      <DependentUpon>SituationSoldeCptClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SortieForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SortieForm.Designer.cs">
+      <DependentUpon>SortieForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SortieFormSortie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortieFormSortie.Designer.cs">
+      <DependentUpon>SortieFormSortie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilisateur.Designer.cs">
+      <DependentUpon>Utilisateur.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddFonct12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Googledocs-off%402xOK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changephoto_02%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp_createpdf_ios_n_lt%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixed-doc-off%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp_lock_md_n_lt%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder_player_man%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webdav-off%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuizButton-Shadow_A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcard-off%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp_lock_ios_n_lt%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\placeholder_player_man%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UploadAction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WebDAVIndexDownloadHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UploadAction_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_emissions_player_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dropbox%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w_aim%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_msn_alpha%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\callout-dyk-icon%402x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xtc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xtc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coopec_Lib\Coopec_Lib.csproj">
+      <Project>{28585C6A-DF0E-4E0C-B89A-DAE94FA26044}</Project>
+      <Name>Coopec_Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Coopec_rpt\Coopec_rpt.csproj">
+      <Project>{82F698F4-B829-4449-A761-AA53394C9476}</Project>
+      <Name>Coopec_rpt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

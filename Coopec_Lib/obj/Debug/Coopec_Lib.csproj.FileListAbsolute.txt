@@ -1,0 +1,7 @@
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\obj\Debug\ResolveAssemblyReference.cache
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\bin\Debug\Coopec_Lib.dll
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\bin\Debug\Coopec_Lib.pdb
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\bin\Debug\CryptageJosam_LIB.dll
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\bin\Debug\CryptageJosam_LIB.pdb
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\obj\Debug\Coopec_Lib.dll
+E:\JOSAM_FOLDER\GestionCoopec\Coopec_Lib\obj\Debug\Coopec_Lib.pdb
